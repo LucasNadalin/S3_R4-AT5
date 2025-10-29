@@ -1,0 +1,20 @@
+[
+    {
+        "titulo": "Chapeuzinho Vermelho",
+        "autor": "Charles Perrault",
+        "ano": 1697,
+        "exemplares": 3
+    },
+    {
+        "titulo": "Os 3 porquinhos",
+        "autor": "Lucas",
+        "ano": 1909,
+        "exemplares": 3
+    },
+    {
+        "titulo": "O coelho e a lebre",
+        "autor": "Miguel",
+        "ano": 1890,
+        "exemplares": 5
+    }
+]
