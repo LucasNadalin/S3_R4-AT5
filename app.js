@@ -32,7 +32,7 @@ app.post("/cadastrarLivros", (req, res) => {
     }
 });
 
-app.get("/livrosCadastrados", (req, res) => {
+app.get("/consultarLivros", (req, res) => {
     try {
         const data = fs.readFileSync(pathFile, "utf-8");
 
@@ -45,7 +45,7 @@ app.get("/livrosCadastrados", (req, res) => {
     }
 });
 
-app.get("/consultarLivros", (req, res) => {
+app.get("/filtrarLivros", (req, res) => {
     try {
         const data = fs.readFileSync(pathFile, "utf-8");
         
